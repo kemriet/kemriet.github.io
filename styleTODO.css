@@ -1,0 +1,145 @@
+html, body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-image: url("k6.gif");
+}
+
+@keyframes rainbow {
+	0% {background-color: red;}
+	14% {background-color: orange;}
+	28% {background-color: yellow;}
+	42% {background-color: green;}
+	56% {background-color: blue;}
+	70% {background-color: purple;}
+	80% {background-color: pink;}
+}
+
+@keyframes change {
+	0% {transform: translateX(-100px);}
+	50% {transform: tranlateX(100px);}
+	100% {transform: tranlateX(-100px);}
+}
+
+#blue {
+animation-name: rainbow;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+}
+
+.dropbtn{
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	background-color:#f2dce5;
+	color: black;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+	position: absolute;
+	background-color:#f2dce5;
+	min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+p {
+	/*TODO: Change the color of paragraph texts*/
+	color: pink;
+	animation-name: change;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+	color: pink;
+
+}
+
+
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/
+	color: brown;
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+
+#blue {
+	/*TODO: Change the background color to blue*/
+
+}
+
+#doubleyellow {
+	display: inline-block;
+	/*TODO: Change the background color to yellow*/
+
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+	/*TODO: Change the backgrond color to green*/
+
+}
+
+#yellow {
+	/*TODO: Change the background color to yellow*/
+
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the backg#edfcea;round color to green*/
+
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed white;
+	padding: 5px;
+
+}
